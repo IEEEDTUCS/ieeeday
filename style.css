@@ -23,17 +23,20 @@ html{
     overflow-x: hidden;
 }
 header .header-1{
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 48rem;
+    gap: 40rem;
 }
 header .header-1 img{
-    width: 5rem;
+    width: 7rem;
+    padding-left: 1rem;
+    cursor: pointer;
 }
 header .header-1 h2{
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
     padding-left: 2.5rem;
+
 }
 header .header-2{
     display: flex;
@@ -192,7 +195,7 @@ section .btn:hover{
 }
 .card img{
     width: 100%;
-    height: 250px;
+    height: 300px;
 }
 .card{
     display: grid;
@@ -203,20 +206,23 @@ section .btn:hover{
 }
 .card h3{
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .card h4{
     font-size: 1.6rem;
 }
 .card .head-4{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+.card .head-4 span{
+    font-size: 1.4rem;
 }
 .card-btn{
     font-size: 1.6rem;
     color: white;
     padding: 0 4px;
     background: #2279b3;
-    border: 2px solid;
+    border: 2px solid green;
     border-radius: 3px;
 }
 .card-btn:hover{
@@ -432,6 +438,9 @@ footer .container2 .sec.aboutus p{
         font-size: 55%;
         overflow-x: hidden;
     }
+    #scroll-top{
+        display: none;
+    }
     .fas-times{
         width: 5.4rem;
         margin-right: 32rem;
@@ -481,7 +490,10 @@ footer .container2 .sec.aboutus p{
     header .header-2 .nav-toggle{
         opacity: 1;
     }
-
+    .review .review-slider{
+        overflow-x: hidden;
+        max-width:100%;
+    }
 }
 @media(max-width:426px)
 {
@@ -542,6 +554,9 @@ footer .container2 .sec.aboutus p{
     }
     .card{
         display: block;
+    }
+    .cards img{
+        height: 100px;
     }
     .sponser-content{
         display: block;
