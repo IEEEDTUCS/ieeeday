@@ -23,9 +23,9 @@ html{
     overflow-x: hidden;
 }
 header .header-1{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 48rem;
 }
 header .header-1 img{
     width: 5rem;
