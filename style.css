@@ -21,6 +21,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  width: 100%;
 }
 .heading .heading-bg {
   width: 100%;
@@ -37,7 +38,6 @@ header .header-1 img {
 header .header-1 h2 {
   font-size: 3rem;
   font-family: "Poller One", cursive;
-  padding-left: 2.5rem;
 }
 header .header-2 {
   display: flex;
@@ -217,7 +217,7 @@ section .btn:hover {
   font-size: 1.6rem;
 }
 .card .head-4 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .card .head-4 span {
   font-size: 1.4rem;
@@ -500,7 +500,6 @@ footer .container2 .sec.aboutus p {
     overflow-x: hidden;
   }
   header .header-1 h2 {
-    margin-left: 8.3rem;
     text-align: center;
   }
   header .header-2 #menu {
@@ -570,3 +569,4 @@ footer .container2 .sec.aboutus p {
     margin-bottom: 3rem;
   }
 }
+/* comment */
